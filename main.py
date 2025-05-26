@@ -84,7 +84,7 @@ if __name__ == "__main__":
                 print("Episode : {} , time : {} ".format(e, time_step))
                 break
 
-print("\nEğitim tamamlandı. Model test ediliyor...\n")
+print("\nTraining is complete. Model is being tested...\n")
 
 trained_model = agent
 state, _ = env.reset()
